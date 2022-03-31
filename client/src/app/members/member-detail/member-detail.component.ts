@@ -40,8 +40,8 @@ export class MemberDetailComponent implements OnInit {
         medium: photo?.url,
         big: photo?.url
       })
-      return imageUrls;
     }
+    return imageUrls;
   }
 
   loadMember() {
